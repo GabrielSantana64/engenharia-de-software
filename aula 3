@@ -1,1 +1,45 @@
 https://scratch.mit.edu/projects/870882711
+
+Adicionar Cenario 
+
+Ator 1 
+
+Quando *bandeira* for clicada
+esconda
+sempre
+cria clone de este ator
+espere 0.5 seg
+
+qaundo eu começar como um clone 
+mostre
+repita até que posição y < -450
+adicione -10 a y 
+apague esse clone 
+
+
+Ator 2 
+
+
+Quando *bandeira* for clicada
+defina o tamanho como 50% 
+mude velocidade para -10 
+sempre 
+se tecla seta para direita pressiona? então
+adione 10 a x 
+se tecla seta para esquerda pressiona? então
+adione -10 a x 
+
+
+Ator 3
+Quando *bandeira* for clicada
+esconda 
+sempre 
+mude 25 ao efeito cor
+vá para x: numero aleatorio entre -100 e 104 y 160 
+crie clone de este ator 
+espere número aletorio entre 2 e 3 seg 
+quando eu começar como um clone 
+mostre 
+repita até que posição y <-150
+adicione / 1.5 a y 
+apague este clone  
